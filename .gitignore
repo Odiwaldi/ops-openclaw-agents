@@ -1,0 +1,27 @@
+﻿# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+
+# Env / Secrets
+.env
+.env.*
+!.env.example
+config/.env
+config/.env.*
+!config/.env.example
+
+# Logs
+logs/
+*.log
+
+# Build artifacts (adjust per project)
+dist/
+build/
+artifacts/
